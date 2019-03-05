@@ -1,0 +1,10 @@
+<?php
+$css=$_SERVER["HTTP_HOST"];
+$port=strtolower(strchr($_SERVER["SERVER_PROTOCOL"],"/",true));
+$str=substr($_SERVER["SCRIPT_NAME"],0,strrpos($_SERVER["SCRIPT_NAME"],"/"));
+$str=substr($str,0,strrpos($str,"/")+1);
+$cssurl=$port."://".$css.$str."static/css/";
+$jsurl=$port."://".$css.$str."static/js/";
+$imgurl=$port."://".$css.$str."static/img/";
+$editurl=$port."://".$css.$str."static/utf8-php/";
+?>

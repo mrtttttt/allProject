@@ -1,0 +1,72 @@
+.article{
+	color: #666;
+}
+.article main>div{
+	margin: 20px 0;width: 100%;
+}
+.article>main>p{
+	font-size: 14px;
+	line-height: 35px;
+}
+.article>main>p:first-child{
+	text-align: center;
+	font-size: 16px;
+}
+.share{
+	overflow: hidden;
+	border-bottom: 1px dashed #ccc;
+}
+.share>li{
+	float: left;
+	color: #666666;
+	font-size: 12px;
+	line-height: 35px;
+}
+.share>li>a{
+	color: #666666;
+	font-size: 12px;
+	margin: 0 8px;
+}
+.share>li>a:hover{
+	color: #F39A00;
+}
+.article>main>span{
+	display: block;
+	font-size: 12px;
+	text-indent: 2em;
+	margin: 10px 0;
+}
+.article>main>p:last-child>a{
+	color: #666666;
+	font-size: 12px;
+	text-decoration: underline;
+	margin-left: 6px;
+}
+.article>main>p:last-child>a:hover{
+	color: #F39A00;
+}
+.message h3{
+	line-height: 50px;
+}
+.messageForm .title{
+	width: 200px;
+}
+.messageForm button{
+	float: right;
+}
+.messageForm textarea{
+	resize: none;
+}
+.more{
+	font-size: 12px;line-height: 20px;
+}
+.messagecon li{
+	height: 100px;width: 100%;border-bottom: 1px solid rebeccapurple;
+	margin-top: 15px;position: relative;padding: 7px 0;
+}
+.messagecon li span{
+	/*float: left;*/
+}
+.messagecon li .time{
+
+}

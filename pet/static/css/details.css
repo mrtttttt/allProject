@@ -1,0 +1,101 @@
+.details{
+    width: 100%;
+    min-height: 500px;
+    background: #fff;
+}
+.details main{
+    overflow: hidden;padding: 50px 0 0 0;
+}
+.showShop{
+    float: left;
+    width: 60%;
+}
+.bigShop{
+    width: 628px;
+    height:300px;text-align: center;position: relative;margin-bottom: 20px;
+}
+.bigShop img{
+    width: 300px;position: absolute;transition: .5s;
+    top:0;left: 0;right: 0;bottom: 0;margin: auto;opacity: 0;
+}
+.bigShop img:first-of-type{
+    opacity: 1;z-index: 1;
+}
+.btnl,.btnr{
+    width: 70px;
+    height:70px;color: #ccc;font-size: 30px;text-align: center;line-height: 70px;
+    background: none;border: none;z-index: 9;
+    position: absolute; top: 0;bottom: 0;margin: auto 0;cursor: pointer;
+}
+.btnl{
+    left:0;
+}
+.btnl:hover{
+    color: #333;
+}
+.btnr:hover{
+    color: #333;
+}
+.btnr{
+    right: 0;
+}
+.smallShop{
+    width: 628px;height: 64px;text-align: center;
+}
+.smallShop div{
+    border: 2px solid #ccc;margin: 0 5px;
+    width: 60px;
+    height:60px;display: inline-block;cursor: pointer;
+}
+.smallShop div:first-of-type{
+    border-color: #00b3ff;
+}
+.smallShop div img{
+    width: 100%;height: 100%;
+}
+
+.shopDetail{
+    padding: 50px 0 0 0;
+     width: 40%;
+     float: left;
+}
+.shopDetail>div{
+    margin: 20px 0;
+}
+.shopDetail h3{
+    margin-bottom: 10px;
+}
+.shopDetail p{
+    color: #ccc;
+    line-height: 50px;
+    border-bottom: 1px solid #eee;
+}
+.shopDetail .price span{
+    line-height: 60px;color: red;font-size: 26px;font-weight: bold;
+}
+.num button{
+    width: 40px;height: 36px;vertical-align: middle;outline: none;
+}
+.num input{
+    width: 50px;height: 36px;text-align: center;border-radius: 5px;border: 1px solid #ccc;outline:none;vertical-align: middle;
+}
+.shopDetail>button{
+    margin: 0 20px;
+}
+.detailsAll{
+    margin: 30px 0 0 0;
+    float: left;
+    width: 75%;
+}
+.tuijian{
+    position: relative;text-align: center;
+    float: left;    margin: 30px 0 0 0;height: 322px;
+    width: 25%;    padding: 20px 20px;box-sizing: border-box;
+}
+.tuijian img{
+    transition: .5s;position: absolute;top:0;left: 0;right:0;bottom:0;opacity: 0;
+    width: 100%;margin: auto;
+}
+.tuijian img:first-of-type{
+    opacity: 1;z-index: 1;
+}
